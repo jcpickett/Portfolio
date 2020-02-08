@@ -1,0 +1,39 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    z-index: 0;
+}
+
+#initial{
+    z-index: 1;
+}
+
+#title{
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: absolute;
+
+    top: 200px;
+    right: 25vw;
+
+    background-color: #0000ff;
+    color: white;
+
+    height: 200px;
+    width: 50vw;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+/* Hexes: #0000ff (Blue), #02075d (Navy Blue), */
