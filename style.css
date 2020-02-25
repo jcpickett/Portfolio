@@ -1,39 +1,105 @@
 body{
+    background-color: #000B33;
+    margin: 0px;
+    padding: 0px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+#main{
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+}
+
+#color-grid{
     padding: 0px;
     margin: 0px;
-    z-index: 0;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
-#initial{
-    z-index: 1;
+#red{
+    background-color: #540C00;
+    border-radius: 10px;
 }
 
-#title{
-    z-index: 1;
+#green{
+    background-color: #01691E;
+    border-radius: 10px;
+}
 
+#blue{
+    background-color:#000B33;
+    border-radius: 10px;
+}
+
+#yellow{
+    background-color: #BA9B00;
+    border-radius: 10px;
+}
+
+#purple{
+    background-color: #1A0154;
+    border-radius: 10px;
+}
+
+.grid-block{
+    width: 120px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+}
+
+#hero-wrapper{
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
-    position: absolute;
-
-    top: 200px;
-    right: 25vw;
-
-    background-color: #0000ff;
     color: white;
-
-    height: 200px;
-    width: 50vw;
+    text-align: center;
 }
 
-h1{
+.color-block{
+    transition: 0.25s;
+}
+
+.color-block:hover{
+    transform: translate(0px, -25px);
+}
+
+#name{
+    font-size: 50px;
+}
+
+#sub-name{
+    font-size: 35px;
+}
+
+.border{
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
+    border-bottom: none;
+    border-radius: 10px;
+}
+
+.cards{
+    font-size: 15px;
+}
+
+#work{
     margin-bottom: 0px;
 }
 
-h2{
+#experience{
     margin-top: 0px;
 }
-
-/* Hexes: #0000ff (Blue), #02075d (Navy Blue), */
