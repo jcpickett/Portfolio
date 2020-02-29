@@ -15,7 +15,7 @@ body{
 #color-grid{
     padding: 0px;
     margin: 0px;
-    margin-top: 150px;
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -49,6 +49,7 @@ body{
 .grid-block{
     width: 120px;
     height: 200px;
+    position: relative;
 
     display: flex;
     flex-direction: column;
@@ -102,4 +103,9 @@ body{
 
 #experience{
     margin-top: 0px;
+}
+
+#button-position{
+    position: absolute;
+    margin-top: 150px;
 }
