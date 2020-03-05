@@ -107,5 +107,8 @@ body{
 
 #button-position{
     position: absolute;
-    margin-top: 150px;
+
+    bottom: -100px;
+    right: 0px;
+    left: 0px;
 }
